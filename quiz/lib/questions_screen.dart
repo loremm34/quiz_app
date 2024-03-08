@@ -18,7 +18,7 @@ class _QuiestionsScreen extends State<QuestionsScreen> {
     // currentQuestionIndex = currentQuestionIndex + 1;
     // currentQuestionIndex += 1;
     setState(() {
-      currentQuestionIndex++; // increments the value by 1
+      currentQuestionIndex += 1; // increments the value by 1
     });
   }
 
