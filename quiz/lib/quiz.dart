@@ -21,6 +21,7 @@ class _Quiz extends State<Quiz> {
   var activeScreen = "start-screen";
 
   void switchScreen() {
+    selectedAnswers = [];
     setState(() {
       activeScreen = "questions-screen";
     });
